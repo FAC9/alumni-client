@@ -22,19 +22,20 @@
 - Images to add human touch
 - Mailing list is optional
 
-### Things to change
-- Add an email confirmation notification on payment complete page (+++)
+### Changes made based on suggestions
 - Add colour and vibrance to website, particularly buttons (++)
+- Change 'Pay with' to 'Donate with' for added warmth (+)
+- Added message on payment page to make it warmer (+)
+- Indicate card payment is secure (+)
+- No donate button on last page (+)
+
+### Future suggestions
+- Add an email confirmation notification on payment complete page (+++)
 - After thank you, option to see details about how money is being used (++)
 - Help button on last page (++)
 - Heart animation on click adds colour (++)
-- Change 'Pay with' to 'Donate with' for added warmth (+)
 - A donation reference number (+)
-- Added message on payment page to make it warmer (+)
-- Add higher contrast buttons (+)
-- Indicate card payment is secure (+)
 - Too much text/ too small on page 2 (+)
-- No donate button on last page (+)
 - Option to take a photo of your card to autofill the details (+)
 - Order of payment details/email address being at top (+)
 - More willing to sign up to mailing list if it is about updates about where their money is going (+)
