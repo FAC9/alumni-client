@@ -53,12 +53,16 @@
 
 
 .back {
+  display: inline-block;
+  text-decoration: none;
   position: absolute;
-  right: 0;
+  height: 100%;
+  right: 1em;
+  bottom: -0.75em;
 }
 
 .back__image {
-  width: 100%;
-  height: 100%;
   box-sizing: border-box;
+  height: 60%;
+  padding: 1em 0 0 1em;
 }
