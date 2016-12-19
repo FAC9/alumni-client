@@ -1,1 +1,15 @@
-/*A comment to make this page go to github*/
+
+.button-container {
+  background-color: #93C745;
+  text-align: center;
+  width: 100%;
+  height: 2rem;
+  bottom: 0px;
+  position: absolute;
+}
+
+.button-container__donate {
+  border: none;
+  background-color: inherit;
+  color: white;
+}
