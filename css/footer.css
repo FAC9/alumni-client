@@ -17,8 +17,50 @@
   font-size: 4rem;
   border: none;
   background-color: inherit;
-  padding: 2.7rem 0rem;
-  margin: 0rem;
+  margin: 2.7rem 0rem;
   width: 100%;
   color: inherit;
+}
+
+.button-container__content {
+  position: absolute;
+  display: inline-block;
+  font-size: 3.5rem;
+}
+
+.button-container__button {
+  background-color: white;
+  height: 60%;
+  width: 22%;
+  color: black;
+  margin: 2.5rem 0rem;
+}
+
+.button-container__button__paypal {
+  right: 20rem;
+}
+
+.button-container__button__card {
+  text-align: right;
+  padding-right: 1rem;
+  margin-right: 0rem;
+  right: 3rem;
+}
+
+.button-container__text {
+  color: white;
+  left: 3.5rem;
+}
+
+.button-container__button__card__img {
+  height: 3rem;
+}
+
+.button-container__button__paypal__img {
+  margin-top: 0.9rem;
+}
+
+.button-container__button__card__text {
+  margin: 0rem;
+  display: inline-block;
 }

@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Make a donation</title>
-    <link rel="stylesheet" href="normalise.css">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <nav></nav>
-
+    <section class="button-container">
+      <p class="button-container__content button-container__text">Donate with</p>
+      <a href="https://www.paypal.com/">
+        <button class="button-container__content button-container__button button-container__button__paypal">
+          <img src="paypal-logo.svg" class="button-container__button__paypal__img"></img>
+        </button>
+      </a>
+      <a href="payment-confirmation.html">
+        <button class="button-container__content button-container__button button-container__button__card">
+          <img src="card-security.png" class="button-container__button__card__img"></img>
+          <p class="button-container__button__card__text">Card</p>
+        </button>
+      </a>
+    </section>
   </body>
 </html>
