@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Payment Confirmation</title>
-    <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalise.css">
-    <link rel="stylesheet" href="css/header.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Payment Confirmation</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalise.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
+<body>
   <!-- header -->
   <header class="header">
     <a href="/" class="logo">
@@ -23,7 +25,29 @@
 
   </header>
 
-  <body>
+  <section class="thanks-container">
+    <h3 class="thanks-container__completion-message">Donation Complete</h3>
+    <h2 class="thanks-container__thanks-message">Thank you for your kindness</h2>
+  </section>
 
-  </body>
+  <section class="summary-container">
+    <h4 class="summary-container__title">Donation Summary</h4>
+    <div class="summary-container__row">
+      <p class="summary_container__row__property-name">Payment Method</p>
+      <p class="summary_container__row__property-value">VISA</p>
+    </div>
+    <div class="summary-container__row">
+      <p class="summary_container__row__property-name">Card Number</p>
+      <p class="summary_container__row__property-value">***4325</p>
+    </div>
+    <div class="summary-container__row">
+      <p class="summary_container__row__property-name">Name</p>
+      <p class="summary_container__row__property-value">Jordan Smith</p>
+    </div>
+    <div class="summary-container__row">
+      <p class="summary_container__row__property-name">Amount billed</p>
+      <p class="summary_container__row__property-value">£30</p>
+    </div>
+  </section>
+</body>
 </html>
