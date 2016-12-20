@@ -4,7 +4,7 @@ body {
 
 .thanks-container {
   display: inline-block;
-  margin-top: 4.5em;
+  margin-top: 3.5em;
   width: 100%;
   text-align: center;
 }
@@ -33,6 +33,7 @@ body {
   display: block;
   margin: auto;
   width: 80%;
+  padding-bottom: 6rem;
 }
 
 .summary-container__title {
