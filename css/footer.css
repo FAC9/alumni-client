@@ -2,10 +2,10 @@
   background-color: #93C745;
   text-align: center;
   width: 100%;
-  height: 10rem;
-  bottom: 0px;
+  height: 6rem;
+  bottom: 0em;
   position: absolute;
-  padding: 0rem;
+  padding: 0em;
 }
 
 .button-container__link, .button-container__link:visited {
@@ -13,11 +13,11 @@
   color: white;
 }
 .button-container__button--green {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   border: none;
   background-color: inherit;
-  margin: 2.7rem 0rem;
+  margin: 1.2rem 0rem;
   width: 100%;
   color: inherit;
 }
