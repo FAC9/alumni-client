@@ -1,35 +1,3 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
-.donation__image {
-  background-image: url("../images/secondary-school-pupils.jpg");
-  background-position: center;
-  display: inline-block;
-  font-size: 1.2rem;
-  width: 100%;
-  height: 12em;
-  margin-top: 4.5em; /* Dependent on header padding + height */
-}
-
-.donation__title {
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 1em;
-}
-
-.donation__blurb {
-  text-align: center;
-  margin: 1em;
-}
-
-.donation__quote {
-  text-align: center;
-  font-style: italic;
-  margin: 1em;
-}
-
-.donation__quote--type-normal {
-  font-style: normal;
-}
