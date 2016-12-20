@@ -4,7 +4,7 @@ An organisation to help develop future leaders by connecting alumni with their p
 
 # Why
 
-Future leaders saught to raise extra revenue to help the organisation, and saught to minimise the workload for the user when making donations. The seals of approval were tasked with helping to solve the problem.
+Future leaders sought to raise extra revenue to help the organisation, and sought to minimise the workload for the user when making donations. The seals of approval were tasked with helping to solve the problem.
 
 # What
 
