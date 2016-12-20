@@ -9,6 +9,7 @@
   height: 3.5em;
   position: fixed;
   background: white;
+  z-index: 999;
 }
 
 .logo {
