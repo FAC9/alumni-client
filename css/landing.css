@@ -1,10 +1,23 @@
+/* Cover */
+
 .cover {
   display: fixed;
   width: 100vw;
   height: 100vh;
-  background: red;
 }
 
+.cover--landing-bg {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5) ),
+    url(../images/landing-bg.png); /* trick to darken background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Heading */
 
 .heading {
   display: inline-block;
@@ -13,17 +26,20 @@
   margin: 0 20%;
   position: relative;
   top: calc(50% - 6em); /* Set position from top */
-  background: yellow;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .heading__main {
-  display: block;
+  font-size: 2em;
+  font-weight: 300;
   color: white;
-  text-align: center;
+  margin: 1em 0;
 }
 
 .heading__sub {
-  display: block;
+  font-size: 1.1em;
+  font-weight: 300;
   color: white;
-  text-align: center;
+  line-height: 150%;
 }
