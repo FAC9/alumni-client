@@ -29,20 +29,20 @@ body {
   height: 2.7em;
 }
 
-.summary-container {
+.summary {
   display: block;
   margin: auto;
   width: 80%;
 }
 
-.summary-container__title {
+.summary__title {
   text-align: center;
   font-weight: 300;
   font-size: 1.1em;
   margin: 1.7em 0em 0em 0em;;
 }
 
-.summary-container__row {
+.row {
   position: relative;
   border-style: solid;
   border-color: #BDBDBD;
@@ -51,14 +51,14 @@ body {
   height: 2.7em;
 }
 
-.summary_container__row__property-name {
+.row__property-name {
   margin-top: inherit;
   padding-left: 0.8em;
   position: absolute;
   font-size: 1.1em;
 }
 
-.summary_container__row__property-value {
+.row__property-value {
   position:  absolute;
   right: 0.8em;
   margin-top: inherit;
