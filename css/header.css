@@ -59,11 +59,10 @@
   position: absolute;
   height: 100%;
   right: 1em;
-  bottom: -0.75em;
 }
 
 .back__image {
   box-sizing: border-box;
-  height: 60%;
-  padding: 1em 0 0 1em;
+  height: 100%;
+  padding: .8em;
 }
