@@ -3,6 +3,7 @@ body {
 }
 
 .thanks-container {
+  font-size: 0.95em;
   display: inline-block;
   margin-top: 4.5em;
   width: 100%;
@@ -33,6 +34,7 @@ body {
   display: block;
   margin: auto;
   width: 80%;
+  font-size: 0.95em;
 }
 
 .summary-container__title {
