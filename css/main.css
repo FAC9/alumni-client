@@ -5,13 +5,43 @@ body {
 
 .payment-form {
   font-size: 1.2rem;
-  padding: 3.5em 1em 0em;
+  padding: 4em 1em 0em;
 }
 
-.form-title {
+.payment-form-title {
   font-size: 1.2rem;
 }
 
-.form-field {
+.payment-form-field {
   display: block;
+  margin-bottom: 1em;
+}
+
+.payment-form-field--block {
+  display: block;
+}
+
+.payment-form-field--inline-block {
+  display: inline-block;
+  width: 40%
+}
+
+.payment-form-field__label {
+  font-size: 0.7em;
+}
+
+.payment-form-field__label--block {
+  display: block;
+}
+
+.payment-form-field__label--inline {
+  display: inline-block;
+}
+
+#amount, #payment-method, #CVV, #expiration-date {
+  width: 90%;
+}
+
+#payment-method {
+  font-size: 1.2rem;
 }

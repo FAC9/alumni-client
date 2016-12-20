@@ -25,33 +25,59 @@
     </header>
 
     <section class="payment-form">
-      <h1 class="form-title">Your contribution</h1>
+      <h1 class="payment-form-title">Your contribution</h1>
       <form>
-        <label class="form-field" for="email">Email</label>
-        <input id="email" type="text"></input>
-        <label class="form-field" for="amount">Amount</label>
-        <input id="amount" type="number"></input>
-        <label class="form-field" for="payment-method">Payment Method</label>
-        <select id="payment-method">
-          <option>Visa</option>
-          <option>MasterCard</option>
-          <option>American Express</option>
-          <option>Visa Debit</option>
-          <option>Maestro</option>
-          <option>Visa Electron</option>
-        </select>
-        <label class="form-field" for="card number">Card Number</label>
-        <input id="card number" type="text"></input>
-        <label class="form-field" for="cardholder name">Cardholder Name</label>
-        <input id="cardholder name" type="text"></input>
-        <label class="form-field" for="expiration date">Expiration Date</label>
-        <input id="expiration date" type="text"></input>
-        <label class="form-field" for="CVV">CVV</label>
-        <input id="CVV" type="text"></input>
-        <input id="terms and conditions" type="checkbox"></input>
-        <label class="form-field" for="terms and conditions">I agree to the <a>terms and conditions</a></label>
-        <input id="email updates" type="checkbox"></input>
-        <label class="form-field" for="email updates">Send me updates about Future Leaders</label>
+        <div class="payment-form-field payment-form-field--block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="email">Email</label>
+          <input class="" id="email" type="text"/>
+        </div>
+
+        <div class="payment-form-field payment-form-field--inline-block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="amount">Amount</label>
+          <input class="" id="amount" type="number"/>
+        </div>
+
+        <div class="payment-form-field payment-form-field--inline-block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="payment-method">Payment Method</label>
+          <select class="" id="payment-method">
+            <option>Visa</option>
+            <option>MasterCard</option>
+            <option>American Express</option>
+            <option>Visa Debit</option>
+            <option>Maestro</option>
+            <option>Visa Electron</option>
+          </select>
+        </div>
+
+        <div class="payment-form-field payment-form-field--block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="card number">Card Number</label>
+          <input class="" id="card-number" type="text"/>
+        </div>
+
+        <div class="payment-form-field payment-form-field--block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="cardholder name">Cardholder Name</label>
+          <input class="" id="cardholder-name" type="text"/>
+        </div>
+
+        <div class="payment-form-field payment-form-field--inline-block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="expiration date">Expiration Date</label>
+          <input class="" id="expiration-date" type="text"/>
+        </div>
+
+        <div class="payment-form-field payment-form-field--inline-block">
+          <label class="payment-form-field__label payment-form-field__label--block" for="CVV">CVV</label>
+          <input class="" id="CVV" type="text"/>
+        </div>
+
+        <div class="payment-form-field payment-form-field--block">
+          <input id="terms and conditions" class="" type="checkbox"/>
+          <label class="payment-form-field__label payment-form-field__label--inline" for="terms and conditions">I agree to the <a>terms and conditions</a></label>
+        </div>
+
+        <div class="payment-form-field payment-form-field--block">
+          <input id="email updates" class="" type="checkbox"/>
+          <label class="payment-form-field__label payment-form-field__label--inline" for="email updates">Send me updates about Future Leaders</label>
+        </div>
       </form>
     </section>
 
