@@ -3,6 +3,7 @@ body {
 }
 
 .thanks-container {
+  font-size: 0.95em;
   display: inline-block;
   margin-top: 3.5em;
   width: 100%;
@@ -12,7 +13,6 @@ body {
 .thanks-container__completion-message {
   font-weight: 100;
   font-size: 1.2em;
-  padding-top: 1em;
 }
 
 .thanks-container__thanks-message {
@@ -33,6 +33,7 @@ body {
   display: block;
   margin: auto;
   width: 80%;
+  font-size: 0.95em;
   padding-bottom: 6rem;
 }
 
