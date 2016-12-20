@@ -19,6 +19,8 @@ Donors/potential donors of Future Leaders
 
 # Style Guide
 
+## Colours
+
 There are 3 key colours used throughout the website.
 
 - Green logo colour: #a5d050
@@ -28,3 +30,8 @@ There are 3 key colours used throughout the website.
 <img src="docs/images/logogreen.png" width="100"/>
 <img src="docs/images/logogrey.png" width="100"/>
 <img src="docs/images/lightgrey.png" width="100"/>
+
+## Font
+
+  - **Main font:** Roboto
+  - **Landing page header:** Open Sans
