@@ -2,28 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Donate</title>
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Future Leaders</title>
     <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/donate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
-  <!-- header -->
-  <header class="header">
-    <a href="/" class="logo">
-      <img class="logo__image" src="images/logo.jpg">
-      <span class="logo__text">Future</span>
-      <span class="logo__text logo__text--green">Leaders</span>
-    </a>
-
-    <a class="back" href="index.html">
-      <img src="images/back-arrow.jpg" class="back__image">
-    </a>
-
-  </header>
-
   <body>
+    <header class="header">
+      <a href="/" class="logo">
+        <img class="logo__image" src="images/logo.jpg">
+        <span class="logo__text">Future</span>
+        <span class="logo__text logo__text--green">Leaders</span>
+      </a>
 
+      <a class="back" href="index.html">
+        <img src="images/back-arrow.jpg" class="back__image">
+      </a>
+    </header>
+
+    <div class="donation__image"></div>
+    <h1 class="donation__title">
+      Your payment changes lives
+    </h1>
+    <section class="donation__blurb">
+      Your donation will enable students to attend events that will help them discover how to achieve their future career goals.
+    </section>
+    <section class="donation__quote">
+      <p>"FL gave me the confidence to follow my dream career with the tools I need to get there."</p>
+      <span class="donation__quote--type-normal">Sam, 15, London</span>
+    </section>
+
+    <section class="button-container">
+      <p class="button-container__options button-container__text">Donate with</p>
+      <a href="https://www.paypal.com/">
+        <button class="button-container__options button-container__button--white button-container__button__paypal">
+          <img src="paypal-logo.svg" class="button-container__button__paypal__img">
+        </button>
+      </a>
+      <a href="payment-form.html">
+        <button class="button-container__options button-container__button--white button-container__button__card">
+          <img src="card-security.png" class="button-container__button__card__img">
+          <p class="button-container__button__card__text">Card</p>
+        </button>
+      </a>
+    </section>
   </body>
 </html>
