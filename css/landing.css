@@ -1,0 +1,29 @@
+.cover {
+  display: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: red;
+}
+
+
+.heading {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 20%;
+  position: relative;
+  top: calc(50% - 6em); /* Set position from top */
+  background: yellow;
+}
+
+.heading__main {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.heading__sub {
+  display: block;
+  color: white;
+  text-align: center;
+}
