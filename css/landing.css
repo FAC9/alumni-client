@@ -1,0 +1,45 @@
+/* Cover */
+
+.cover {
+  display: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover--landing-bg {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5) ),
+    url(../images/landing-bg.png); /* trick to darken background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Heading */
+
+.heading {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 20%;
+  position: relative;
+  top: calc(50% - 6em); /* Set position from top */
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.heading__main {
+  font-size: 2em;
+  font-weight: 300;
+  color: white;
+  margin: 1em 0;
+}
+
+.heading__sub {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: white;
+  line-height: 150%;
+}
