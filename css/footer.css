@@ -14,7 +14,7 @@
 }
 .button-container__button--green {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 400;
   border: none;
   background-color: inherit;
   margin: 1.7rem 0rem;
@@ -30,7 +30,7 @@
 .button-container__button--white {
   background-color: white;
   height: 50%;
-  width: 24%;
+  width: 5.8rem;
   color: black;
   margin-top: 1em;
 }
