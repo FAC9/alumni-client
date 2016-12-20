@@ -1,1 +1,49 @@
 /*This will be the main css*/
+
+.thanks-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 13em;
+}
+
+.thanks-container__completion-message {
+  font-weight: 100;
+}
+
+.thanks-container__thanks-message {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.summary-container {
+  display: block;
+  margin: auto;
+  /*text-align: center;*/
+  width: 80%;
+}
+
+.summary-container__title {
+  /*display: block;
+  margin: auto;*/
+  text-align: center;
+  font-weight: 300;
+}
+
+.summary-container__row {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+.summary_container__row__property-name {
+  display: inline-block;
+  background-color: grey;
+  padding-left: 1em;
+}
+
+.summary_container__row__property-value {
+  display: inline-block;
+  background-color: yellow;
+  padding-left: 5em;
+}
