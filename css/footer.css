@@ -24,48 +24,49 @@
 
 .button-container__options {
   position: absolute;
-  font-size: 3.6rem;
+  font-size: 1.5rem;
 }
 
 .button-container__button--white {
   background-color: white;
-  height: 60%;
+  height: 50%;
   width: 24%;
   color: black;
-  margin-top: 2rem;
+  margin-top: 1em;
 }
 
 .button-container__button__paypal {
-  right: 20rem;
+  right: 4.6em;
 }
 
 .button-container__button__paypal__img {
-  margin-top: 0.9rem;
+  margin-top: 0.3em;
 }
 
 .button-container__button__card {
-  right: 3rem;
+  right: 0.5em;
 }
 
 .button-container__button__card__img {
-  height: 4rem;
+  height: 1em;
   position: absolute;
-  left: 0.5rem;
-  top: 1rem;
+  left: 0.1em;
+  top: 0.5em;
 }
 
 .button-container__button__card__text {
-  margin: 0rem;
+  margin: 0em;
   display: inline-block;
   font-weight: bold;
   position: absolute;
-  right: 0.9rem;
-  top: 0.9rem;
+  right: 0.2em;
+  top: 0.5em;
+  font-size: 0.9em;
 }
 
 .button-container__text {
   color: white;
-  left: 3.5rem;
-  margin-top: 3.2rem;
+  left: 0.5em;
+  margin-top: 1.5em;
   font-weight: bold;
 }
