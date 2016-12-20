@@ -2,3 +2,16 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.payment-form {
+  font-size: 1.2rem;
+  padding: 3.5em 1em 0em;
+}
+
+.form-title {
+  font-size: 1.2rem;
+}
+
+.form-field {
+  display: block;
+}
