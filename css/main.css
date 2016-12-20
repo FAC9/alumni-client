@@ -1,49 +1,67 @@
 /*This will be the main css*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .thanks-container {
-  display: block;
-  margin: auto;
+  display: inline-block;
+  margin-top: 4.5em;
+  width: 100%;
   text-align: center;
-  width: 13em;
 }
 
 .thanks-container__completion-message {
   font-weight: 100;
+  font-size: 1.2em;
+  padding-top: 1em;
 }
 
 .thanks-container__thanks-message {
-  font-weight: 500;
+  display: block;
+  margin: auto;
+  width: 60%;
   line-height: 1.4;
+  font-weight: 500;
+  font-size: 2.2em;
+}
+
+.thanks-container__heart-image {
+  padding-top: 1.5em;
+  height: 2.7em;
 }
 
 .summary-container {
   display: block;
   margin: auto;
-  /*text-align: center;*/
   width: 80%;
 }
 
 .summary-container__title {
-  /*display: block;
-  margin: auto;*/
   text-align: center;
   font-weight: 300;
+  font-size: 1.1em;
+  margin: 1.7em 0em 0em 0em;;
 }
 
 .summary-container__row {
+  position: relative;
   border-style: solid;
-  border-color: black;
+  border-color: #BDBDBD;
   border-width: thin;
+  margin-top: 0.7em;
+  height: 2.7em;
 }
 
 .summary_container__row__property-name {
-  display: inline-block;
-  background-color: grey;
-  padding-left: 1em;
+  margin-top: inherit;
+  padding-left: 0.8em;
+  position: absolute;
+  font-size: 1.1em;
 }
 
 .summary_container__row__property-value {
-  display: inline-block;
-  background-color: yellow;
-  padding-left: 5em;
+  position:  absolute;
+  right: 0.8em;
+  margin-top: inherit;
+  font-size: 1.1em;
 }
