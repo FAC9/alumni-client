@@ -1,9 +1,9 @@
+var emailRegExp = /^[^W][a-zA-Z0-9_]+(.[a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+(.[a-zA-Z0-9_]+)*.[a-zA-Z]{2,4}$/;
 var donate = document.getElementsByClassName('button-container')[0];
 
-function verifyEmail() {
+function isEmailValid() {
   var emailAddress = document.getElementById('email').value;
-  console.log(emailAddress);
-  if (!/^[^W][a-zA-Z0-9_]+(.[a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+(.[a-zA-Z0-9_]+)*.[a-zA-Z]{2,4}$/.test(emailAddress)) {
+  if (!emailRegExp.test(emailAddress)) {
     document.getElementsByClassName('warning')[0].style.display = "block";
     return false;
   }
@@ -11,7 +11,7 @@ function verifyEmail() {
 }
 
 donate.onclick = function () {
-  if (verifyEmail()) {
+  if (isEmailValid()) {
     window.open('./payment-confirmation.html', '_self');
   }
 }
