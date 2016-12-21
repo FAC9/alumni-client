@@ -25,9 +25,9 @@
       </a>
     </header>
 
-    <section class="payment-form">
-      <h1 class="form-title">Your contribution</h1>
-      <form>
+    <form action="payment-confirmation.html">
+      <section class="form">
+        <h1 class="form-title">Your contribution</h1>
         <div class="form-field form-field--block">
           <label class="form-field__label form-field__label--block" for="email">Email</label>
           <input class="form-field__input" id="email" type="text"/>
@@ -79,13 +79,12 @@
           <input id="email updates" type="checkbox"/>
           <label class="form-field__label form-field__label--inline" for="email updates">Send me updates about Future Leaders</label>
         </div>
-      </form>
-    </section>
+      </section>
 
-    <section class="button-container">
-      <a href="payment-confirmation.html" class="button-container__link">
-        <button class="button-container__button--green">DONATE</button>
-      </a>
-    </section>
+      <section class="button-container">
+        <button class="button-container__link button-container__button--green" type="submit">DONATE</button>
+      </section>
+
+    </form>
   </body>
 </html>
