@@ -1,10 +1,7 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
 .thanks-container {
+  font-size: 0.95em;
   display: inline-block;
-  margin-top: 4.5em;
+  margin-top: 3.5em;
   width: 100%;
   text-align: center;
 }
@@ -12,7 +9,6 @@ body {
 .thanks-container__completion-message {
   font-weight: 100;
   font-size: 1.2em;
-  padding-top: 1em;
 }
 
 .thanks-container__thanks-message {
@@ -33,6 +29,8 @@ body {
   display: block;
   margin: auto;
   width: 80%;
+  font-size: 0.95em;
+  padding-bottom: 6rem;
 }
 
 .summary-container__title {
@@ -51,14 +49,14 @@ body {
   height: 2.7em;
 }
 
-.summary_container__row__property-name {
+.summary-container__row__property-name {
   margin-top: inherit;
   padding-left: 0.8em;
   position: absolute;
   font-size: 1.1em;
 }
 
-.summary_container__row__property-value {
+.summary-container__row__property-value {
   position:  absolute;
   right: 0.8em;
   margin-top: inherit;

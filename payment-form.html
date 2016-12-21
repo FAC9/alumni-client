@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Future Leaders</title>
     <link rel="stylesheet" href="css/normalise.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/payment-form.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
   <body>
     <header class="header">
-      <a href="/" class="logo">
-        <img class="logo__image" src="images/logo.jpg">
+      <a href="index.html" class="logo">
+        <img class="logo__image" src="images/logo.jpg" alt="Future Leaders Logo">
         <span class="logo__text">Future</span>
         <span class="logo__text logo__text--green">Leaders</span>
       </a>
 
       <a class="back" href="donate.html">
-        <img src="images/back-arrow.jpg" class="back__image">
+        <img src="images/back-arrow.jpg" class="back__image" alt="Back Arrow">
       </a>
     </header>
 
@@ -40,7 +41,7 @@
 
         <div class="form-field form-field--inline-block form-field--inline-block--right">
           <label class="form-field__label form-field__label--block" for="payment-method">Payment Method</label>
-          <select class="" id="payment-method">
+          <select id="payment-method">
             <option>Visa</option>
             <option>MasterCard</option>
             <option>American Express</option>
@@ -51,17 +52,17 @@
         </div>
 
         <div class="form-field form-field--block">
-          <label class="form-field__label form-field__label--block" for="card number">Card Number</label>
+          <label class="form-field__label form-field__label--block" for="card-number">Card Number</label>
           <input class="form-field__input" id="card-number" type="text"/>
         </div>
 
         <div class="form-field form-field--block">
-          <label class="form-field__label form-field__label--block" for="cardholder name">Cardholder Name</label>
+          <label class="form-field__label form-field__label--block" for="cardholder-name">Cardholder Name</label>
           <input class="form-field__input" id="cardholder-name" type="text"/>
         </div>
 
         <div class="form-field form-field--inline-block">
-          <label class="form-field__label form-field__label--block" for="expiration date">Expiration Date</label>
+          <label class="form-field__label form-field__label--block" for="expiration-date">Expiration Date</label>
           <input class="form-field__input" id="expiration-date" type="text"/>
         </div>
 
