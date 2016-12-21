@@ -20,6 +20,7 @@
   margin: 1rem 0rem;
   width: 100%;
   color: inherit;
+  cursor: pointer;
 }
 
 .button-container__options {
@@ -35,6 +36,7 @@
   border: none;
   margin-top: 0.7em;
   box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.15);
+  cursor: pointer;
 }
 
 .button-container__button__paypal {
