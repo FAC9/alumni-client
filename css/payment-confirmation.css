@@ -49,14 +49,14 @@
   height: 2.7em;
 }
 
-.summary_container__row__property-name {
+.summary-container__row__property-name {
   margin-top: inherit;
   padding-left: 0.8em;
   position: absolute;
   font-size: 1.1em;
 }
 
-.summary_container__row__property-value {
+.summary-container__row__property-value {
   position:  absolute;
   right: 0.8em;
   margin-top: inherit;
