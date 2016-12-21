@@ -54,3 +54,10 @@
   border: 1px solid #bdbdbd;
   border-radius: 2px;
 }
+
+.warning {
+  display: none;
+  font-size: 1em;
+  color: red;
+  font-size: 0.8em;
+}
