@@ -62,3 +62,10 @@
   margin-top: inherit;
   font-size: 1.1em;
 }
+
+.warning {
+  display: none;
+  font-size: 1em;
+  color: red;
+  font-size: 0.8em;
+}
