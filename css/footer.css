@@ -1,4 +1,4 @@
-.button-container {
+.cta {
   background-color: #93C745;
   text-align: center;
   width: 100%;
@@ -8,11 +8,11 @@
   padding: 0em;
 }
 
-.button-container__link, .button-container__link:visited {
+.cta__link, .cta__link:visited {
   text-decoration: none;
   color: white;
 }
-.button-container__button--green {
+.cta__button--green {
   font-size: 2rem;
   font-weight: 400;
   border: none;
@@ -23,12 +23,12 @@
   cursor: pointer;
 }
 
-.button-container__options {
+.cta__options {
   position: absolute;
   font-size: 1.3rem;
 }
 
-.button-container__button--white {
+.cta__button--white {
   background-color: white;
   height: 50%;
   width: 4.5em;
@@ -39,26 +39,26 @@
   cursor: pointer;
 }
 
-.button-container__button__paypal {
+.cta__button__paypal {
   right: 5.5em;
 }
 
-.button-container__button__paypal__img {
+.cta__button__paypal__img {
   margin-top: 0.3em;
 }
 
-.button-container__button__card {
+.cta__button__card {
   right: 0.5em;
 }
 
-.button-container__button__card__img {
+.cta__button__card__img {
   height: 1em;
   position: absolute;
   left: 0.5em;
   top: 0.5em;
 }
 
-.button-container__button__card__text {
+.cta__button__card__text {
   margin: 0em;
   display: inline-block;
   font-weight: bold;
@@ -68,7 +68,7 @@
   font-size: 0.9em;
 }
 
-.button-container__text {
+.cta__text {
   color: white;
   left: 0.5em;
   margin-top: 1em;
