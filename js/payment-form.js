@@ -12,6 +12,6 @@ function verifyEmail() {
 
 donate.onclick = function () {
   if (verifyEmail()) {
-    window.open('./payment-confirmation.html');
+    window.open('./payment-confirmation.html', '_self');
   }
 }
